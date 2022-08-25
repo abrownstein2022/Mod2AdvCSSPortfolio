@@ -1,0 +1,35 @@
+/* ========================================
+Stylesheet for Professional Portfolio - Challenge #2
+Author: Alexis Brownstein - alexis@drdatabase.com
+Created: 8/22/22
+Last modified: 
+8/24/22 7:45pm by Alexis Brownstein
+
+******************
+##TODO Color Palette  
+#d9dcd6 - light gray
+#ffffff - dark gray
+#2a607c - blue with gray tint
+#2589bd - birght blue
+========================================== */
+/* SITEWIDE STYLES */
+/* HEADER STYLES */
+
+/* HERO SECTION */
+.hero-image {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/AlexisWideImgWadiRumMay2022IMG_5734.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* MAIN BODY CONTENT */
+
+ body flex-grid {
+    display: flex;
+  }
+  
+
+
+  /* FOOTER SECTION */
