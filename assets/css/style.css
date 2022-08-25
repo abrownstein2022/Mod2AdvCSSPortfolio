@@ -29,8 +29,12 @@ a {
 }
 
 header {
-  color: darkblue;
-  background-color: aqua;
+ /* color: darkblue; */
+  background-color: darkblue;
+  display: flex; /* creates flexbox */
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 /* Black text throughout */
@@ -44,6 +48,8 @@ h1 {
   font-weight: 600;
   margin: 10px 0;
   line-height: 1.2;
+  display: inline;  /*added with Anthony*/
+  background-color: aqua;
 }
 
 h2 {
@@ -73,8 +79,9 @@ p {
 }
 
 nav {
-  background-color: darkblue;
+  /*background-color: darkblue; */
   color: white;
+
 }
 
 nav ul{
@@ -90,6 +97,10 @@ nav a {
   margin: 0 10px;
 }
 
+nav a:hover {
+  color: yellow;
+  border-bottom: 2px solid #9867C5;
+}
 
 /* HEADER STYLES */
 
@@ -104,9 +115,9 @@ nav a {
 }
 /* MAIN BODY CONTENT */
 
- body flex-grid {
+ /*body flex-grid {
     display: flex;
-  }
+  }  */
   
 
 
