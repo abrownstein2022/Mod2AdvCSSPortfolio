@@ -100,23 +100,47 @@ border-width: 2;
 
 /* HEADER STYLES */
 
-.flex-container-img {
+.flex-container-top-img {
   display: flex;
   flex-wrap: nowrap;
   background-color: lightyellow;
   border: 3px solid red;  /*for debugging*/
   height: 35vh;
+  align-items:baseline;
 }
 
-.flex-container-img  div {
+.flex-container-top-img  div {
   background-color: white;
   border: 3px solid purple; /*for debugging*/
-  width: 10%;
+  width: 100%;
   /*margin: 10px;*/
   /* text-align: center; */
   line-height: 75px;
   font-size: 30px;
-  position: relative;
+  /* position: relative; */
+}
+
+.flex-container-top-img h2{
+  right:50%;
+  position: absolute;
+  z-index: 2; /*image h2 has higher zindex it's in front */
+  display: inline;  /*added with Anthony*/
+  background-color: aqua;
+ }
+
+ 
+#top-image {
+ width: 25%;
+} 
+
+/*child to flex-container*/
+#top-img {
+  height: 50%;
+  width: 50%;
+  position:absolute;
+  z-index: 1;  /*zindex is lower so it's behind other child - want h2 in front*/
+  margin: auto;
+  /* width: auto; */
 }
 
  .flex-container1 {
@@ -177,40 +201,26 @@ border-width: 2;
   position: relative;
 }
 
-/*child to flex-container*/
-#about-me-img {
-  height: 100%;
-  width: 100%;
-  position:absolute;
-  z-index: 1;  /*zindex is lower so it's behind child*/
-  margin: auto;
-  /* width: auto; */
-}
- 
-#about-me-content {
-  width: auto;
+#about-me-title {
+  width: 10%;
 } 
 
-.flex-container-img h2{
-  right: 25px;
-  position: absolute;
-  z-index: 2; /*stack on top of parent which is img or p tag*/
-  display: inline;  /*added with Anthony*/
-  background-color: aqua;
- }
+#about-me-content {
+  width: 90%;
+} 
 
 .flex-container1 h2{
   right: 25px;
   position: absolute;
-  z-index: 2; /*stack on top of parent which is img or p tag*/
-  display: inline;  /*added with Anthony*/
+  z-index: 2; /*stack on top of other child*/
+  display: inline;  /*added with Anthony - show all on the same row*/
   background-color: aqua;
  }
 
  .flex-container2 h2{
   right: 25px;
   position: absolute;
-  z-index: 2; /*stack on top of parent which is img or p tag*/
+  z-index: 2; /*stack on top of other child*/
   display: inline;  /*added with Anthony*/
   background-color: aqua;
  }
@@ -218,7 +228,7 @@ border-width: 2;
  .flex-container3 h2{
   right: 25px;
   position: absolute;
-  z-index: 2; /*stack on top of parent which is img or p tag*/
+  z-index: 2; /*stack on top of other child*/
   display: inline;  /*added with Anthony*/
   background-color: aqua;
  }
