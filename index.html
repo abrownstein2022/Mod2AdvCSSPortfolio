@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <header>
+  <header class="header">
     <h1>Alexis Brownstein's Professional Portfolio</h1>
     <nav>
       <ul>
@@ -31,32 +31,48 @@
         </li>
       </ul>
     </nav>
-  </header>
+  </header> 
   <main>
-    <section> <!-- order is important to handle stacking obj-->
-      <div class="flex-container">
+    <section>
+      <div class="flex-container-img">
         <div>
-          <img id="about-me-img" src="./assets/images/AlexisWadiRumHeaderImage.jpg"
-            alt="Alexis Brownstein in the dessert in Wadi Rum, Jordan.  Alexis's web development portfolio appears on this page.">
-         </div>
-        <h1>Super hot web development!</h1>   <!--part of parent -->
-        <div id="about-me-content">
-          <h1>All about me!</h1>
-          <p> J'aime beaucoup les langues etrangeres, la science fiction (surtout Star Trek) et les sports, surtout
-            le tennis et le pickleball. J'aime aussi regarder les sport de l'hiver
-            a la television. Plutot sur moi."
-          </p>
-        </div>
-      </div>
+        <img id="about-me-img" src="./assets/images/AlexisWadiRumHeaderImage.jpg" alt="Alexis Brownstein in the dessert in Wadi Rum, Jordan.  Alexis's web development portfolio appears on this page."> 
+        <h2>Super hot web development!</h2>
+       </div>
+      </div> 
     </section>
-
-
+    <section>
+      <div class="flex-container1">
+        <div>
+          <h2>All about me!</h2> 
+        </div>
+        <div id="about-me-content">   
+          <p> J'aime beaucoup les langues etrangeres, la science fiction (surtout Star Trek) et les sports,
+             surtout le tennis et le pickleball. J'aime aussi regarder les sport de l'hiver 
+             a la television. Plutot sur moi.
+          </p>
+        </div>  
+    </div> 
+    </section>    
+    <section>
+      <div class="flex-container2">
+        <div>
+          <h2>Work</h2>
+        </div>
+        <div id="about-me-content">
+        </div>
+    </section>       
+    <section>
+      <div class="flex-container3">
+        <div>
+          <h2>Contact Me</h2>
+        </div>
+        <div id="about-me-content">
+        </div>
+    </section>   
+  
   </main>
-  <footer>
-    <p>
-      &copy; 2022 Alexis Brownstein
-    </p>
-  </footer>
-</body>
-
+  </body>
+    <footer><p>&copy; 2022 Alexis Brownstein</p></footer>
+</div>
 </html>
