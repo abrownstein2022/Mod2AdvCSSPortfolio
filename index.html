@@ -1,51 +1,62 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Alexis Brownstein's Web Development Portfolio</title>   
+  <title>Alexis Brownstein's Web Development Portfolio</title>
   <link rel="stylesheet" href="./assets/css/style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body> 
-<header>
-    <h1>Brownstein</h1>
-    <nav> 
+
+<body>
+  <header>
+    <h1>Alexis Brownstein's Professional Portfolio</h1>
+    <nav>
       <ul>
-      <li>
+        <li>
           <a href="#">About Me</a>
-      </li>
-      <li>
+        </li>
+        <li>
           <a href="#">Work</a>
-      </li>
-      <li>
+        </li>
+        <li>
           <a href="#">Contact Me</a>
-      </li>
-      <li>
+        </li>
+        <li>
           <a href="./assets/files/Alexis_Brownstein_resume081022.pdf">Resume</a>
-     </li>      
+        </li>
       </ul>
     </nav>
-</header> 
-<main>
-   <section class="hero-image" aria-label="Alexis Brownstein in the dessert in Wadi Rum, Jordan.  ALexis's web development portfolio appears on this page.">
-  <div class="hero-content">
-    <h1>Super hot web development!</h1>
-  </div>
-  <aside class="about-me">
-    <article class="about-me-content">
-      <h1>all about me!</h1>
-    </article>
-  </aside>
-</section> 
+  </header>
+  <main>
+    <section> <!-- order is important to handle stacking obj-->
+      <div class="flex-container">
+        <div>
+          <img id="about-me-img" src="./assets/images/AlexisWadiRumHeaderImage.jpg"
+            alt="Alexis Brownstein in the dessert in Wadi Rum, Jordan.  Alexis's web development portfolio appears on this page.">
+         </div>
+        <h1>Super hot web development!</h1>   <!--part of parent -->
+        <div id="about-me-content">
+          <h1>All about me!</h1>
+          <p> J'aime beaucoup les langues etrangeres, la science fiction (surtout Star Trek) et les sports, surtout
+            le tennis et le pickleball. J'aime aussi regarder les sport de l'hiver
+            a la television. Plutot sur moi."
+          </p>
+        </div>
+      </div>
+    </section>
 
-</main>
-<footer>  
+
+  </main>
+  <footer>
     <p>
       &copy; 2022 Alexis Brownstein
     </p>
-</footer>
+  </footer>
 </body>
+
 </html>
