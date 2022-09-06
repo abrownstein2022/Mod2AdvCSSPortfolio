@@ -81,190 +81,41 @@ ul {
 .navbar ul li {
   margin-left: 20px;
 }
-
-
+ 
 header {
   background-color: darkblue;
   display: flex; /* creates flexbox */
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: baseline;
+
+}
+header p {
+  width: 110%;
+  font-size: 15;
+  color: white;
+ }
+ header img{
+ width: 30%;
+ }
+
+.dessert div{
+  z-index: 1;
+}
+.dessert, .aboutme {
+ width: 30%;
+ color: white;
+ font-size:16;
 }
 
-
-h1 {
-  font-size: 30px;
-  font-weight: 600;
-  margin: 10px 0;
-  line-height: 1.2;
-  display: inline;  /*added with Anthony*/
-  background-color: aqua;
+.dessert img {
+  width: 100%;
 }
 
-h2 {
-  font-size: 25px;
-  font-weight: 300;
-  margin: 10px 0;
-  line-height: 1.2;
+.dessert h1{
+  z-index: 2;
 }
-
-p {
-  font-size: 30px;
-}
-
-
-
-/* No styling on list items yet */
-li {
-  list-style-type: none;
-}
-
-p {
-  font-size: 15px;
-  margin: 10px 0;
-}
-
-
-
 
 /* HEADER STYLES */
-
-.flex-container-top-img {
-  display: flex;
-  flex-wrap: nowrap;
-  background-color: lightyellow;
-  /* border: 3px solid red;  for debugging */
-  height: 35vh;
-  align-items:baseline;
-}
-
-.flex-container-top-img  div {
-  background-color: white;
-  /* border: 3px solid purple;  */
-  width: 100%;
-  /*margin: 10px;*/
-  /* text-align: center; */
-  line-height: 75px;
-  font-size: 30px;
-  /* position: relative; */
-}
-
-.flex-container-top-img h2{
-  right:50%;
-  position: absolute;
-  z-index: 2; /*image h2 has higher zindex it's in front */
-  display: inline;  /*added with Anthony*/
-  background-color: aqua;
- }
-
- 
-#top-image {
- width: 25%;
-} 
-
-/*child to flex-container*/
-#top-img {
-  height: 50%;
-  width: 50%;
-  position:absolute;
-  z-index: 1;  /*zindex is lower so it's behind other child - want h2 in front*/
-  margin: auto;
-  /* width: auto; */
-}
-
- .flex-container1 {
-  display: flex;
-  flex-wrap: nowrap;
-  background-color: lightyellow;
-  border: 3px solid red;  
-  height: 35vh;
-}
-
-.flex-container1  div {
-  background-color: white;
-  border: 3px solid purple; 
-  width: 10%;
-  /*margin: 10px;*/
-  /* text-align: center; */
-  line-height: 75px;
-  font-size: 30px;
-  position: relative;
-  /* width: auto; */
-}
-
-.flex-container2 {
-  display: flex;
-  flex-wrap: nowrap;
-  background-color: lightyellow;
-  /* border: 3px solid red;   */
-  height: 50vh;
-}
-
-.flex-container2  div {
-  background-color: white;
-  /* border: 3px solid purple;  */
-  width: 10%;
-  /*margin: 10px;*/
-  /* text-align: center; */
-  line-height: 75px;
-  font-size: 30px;
-  position: relative;
-}
-
-.flex-container3 {
-  display: flex;
-  flex-wrap: nowrap;
-  background-color: lightyellow;
-  /* border: 3px solid red;   */
-  height: 8vh;
-}
-
-.flex-container3  div {
-  background-color: white;
-  /* border: 3px solid purple;  */
-  width: 10%;
-  /*margin: 10px;*/
-  /* text-align: center; */
-  line-height: 75px;
-  font-size: 30px;
-  position: relative;
-}
-
-#about-me-title {
-  width: 10%;
-} 
-
-#about-me-content {
-  width: 90%;
-  justify-content: left;
-  line-height: normal;
-  /* font-size: 16px; */
-  font-family:"Cambria, Cochin, Georgia, Times, 'Times New Roman', serif";
-} 
-
-.flex-container1 h2{
-  right: 25px;
-  position: absolute;
-  z-index: 2; /*stack on top of other child*/
-  display: inline;  /*added with Anthony - show all on the same row*/
-  background-color: aqua;
- }
-
- .flex-container2 h2{
-  right: 25px;
-  position: absolute;
-  z-index: 2; /*stack on top of other child*/
-  display: inline;  /*added with Anthony*/
-  background-color: aqua;
- }
-
- .flex-container3 h2{
-  right: 25px;
-  position: absolute;
-  z-index: 2; /*stack on top of other child*/
-  display: inline;  /*added with Anthony*/
-  background-color: aqua;
- }
 
 /* MAIN BODY CONTENT */
   
