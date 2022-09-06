@@ -90,19 +90,16 @@ header {
 
 }
 header p {
-  width: 110%;
+  width: 100%;
   font-size: 15;
   color: white;
  }
  header img{
- width: 30%;
+ width: 31%;
  }
 
-.dessert div{
-  z-index: 1;
-}
-.dessert, .aboutme {
- width: 30%;
+.dessert, .aboutme, .worldlhello {
+ width: 31%;
  color: white;
  font-size:16;
 }
