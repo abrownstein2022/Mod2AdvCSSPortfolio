@@ -91,25 +91,44 @@ header {
 }
 header p {
   width: 100%;
-  font-size: 15;
   color: white;
  }
+
  header img{
- width: 31%;
+ width: 100%;
  }
+
+.desert {
+position: relative;
+}
 
 .dessert, .aboutme, .worldlhello {
  width: 31%;
+ height: 51vh;
  color: white;
- font-size:16;
+ font-size: 11.5pt;
+}
+
+.worldhello img {
+width: 100%; /*relative to parent so always 100%*/
+height: 40vh;
+margin-top: 8%;
 }
 
 .dessert img {
   width: 100%;
+  margin-top: 2%;
+  margin-left: 2%;
+  /* position: absolute; takes off page - not needed here*/
+  z-index: 1;
 }
 
 .dessert h1{
+  position: absolute; /*takes off page and z-index says which on top*/
   z-index: 2;
+  color: navy;
+  margin-top: 2%;
+  margin-left: 2%;
 }
 
 /* HEADER STYLES */
