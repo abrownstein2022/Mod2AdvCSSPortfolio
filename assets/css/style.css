@@ -88,6 +88,7 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
   font-size: 11.5pt;
+  
 }
 
 section {
@@ -97,6 +98,7 @@ section {
   justify-content: center;
   font-size: x-large;
   font-weight: bold;
+  justify-content: space-around;
 }
 
 header p {
@@ -114,12 +116,23 @@ align-items: center;
 }
 
 .desert, .aboutme, .worldlhello {
- width: 32%;
+ width: 33%;
  height: 52vh;
  color:  black;
  font-size: 11.5pt;
 }
 
+.aboutme, main, .contactme h1{
+  color: black;
+  text-align: center;
+  background-color:rgb(234, 240, 243);
+}
+
+.aboutme {
+  border:.5px solid blue;
+  margin-top: .5%;
+
+}
 
 .worldhello img {
 width: 100%; /*relative to parent so always 100%*/
@@ -144,7 +157,9 @@ margin-top: 8%;
   margin-left: 2%;
 }
 
-
+ .futurework{
+   
+} 
 
 /* HEADER STYLES */
 
@@ -153,14 +168,10 @@ margin-top: 8%;
   /* FOOTER SECTION */
 footer {
     background-color:  #3474e6;  
-    padding: 30px;
-    clear: both;
+    padding: 3px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    font-weight: bold;
-}
-
-footer h2 {
-    font-size: 20px;
-
+    vertical-align: bottom;
+    font-weight: normal;
+    height: 4vh;
 }
