@@ -18,7 +18,11 @@ body {
   font-family: "lato", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: black;
+  color: white;
+}
+
+a {
+  color: white;
 }
 
 img {
@@ -46,18 +50,20 @@ ul {
   height: 60px;
 }
 
-.navbar a {
+/*what does this a below do?*/
+/* .navbar a {
   color: aqua;
   text-decoration: underline;
-}
+} */
 
-.navbar .logo {
+.navbar .navbarleft {
   font-size: x-large;
   font-weight: bold;
+
 }
 
 .navbar a {
-  color: #fff;
+  color: white;
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
@@ -67,7 +73,7 @@ ul {
   color: yellow;
 }
 
-.navbar .container {
+.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -81,6 +87,7 @@ ul {
 .navbar ul li {
   margin-left: 20px;
 }
+
  
 header {
   background-color: darkblue;
@@ -89,6 +96,7 @@ header {
   justify-content: space-between;
 
 }
+
 header p {
   width: 100%;
   color: white;
@@ -130,6 +138,22 @@ margin-top: 8%;
   color: navy;
   margin-top: 2%;
   margin-left: 2%;
+}
+
+main {
+  background-color: darkblue;
+  display: flex; /* creates flexbox */
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.contactme {
+  background-color: darkblue;
+  display: flex; /* creates flexbox */
+  flex-wrap: wrap;
+  justify-content: space-between;
+
 }
 
 /* HEADER STYLES */
