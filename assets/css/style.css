@@ -88,17 +88,17 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
   font-size: 11.5pt;
-  
+  align-items: center;
 }
 
 section {
   background-color:rgb(234, 240, 243);
   display: flex; /* creates flexbox */
   flex-wrap: wrap;
-  justify-content: center;
+  align-items: center;
   font-size: x-large;
   font-weight: bold;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 header p {
@@ -131,6 +131,7 @@ align-items: center;
 .aboutme {
   border:.5px solid blue;
   margin-top: .5%;
+  text-align: left;
 
 }
 
@@ -157,9 +158,42 @@ margin-top: 8%;
   margin-left: 2%;
 }
 
- .futurework{
-   
+
+/* .currentwork {
+  height: 32vh;
+  color:  white;
+  font-size: 11.5pt;
+  position: relative;
+  align-items: center;
+ } */
+
+.futurework {
+  height: 32vh;
+  color:  white;
+  font-size: 11.5pt;
+  position: relative;
+  align-items: center;
+ }
+
+ .futurework img{
+  width: 75%;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  /* position: absolute; takes off page - not needed here*/
+  z-index: 1;
 } 
+.futurework h1{
+  position: absolute; /*takes off page and z-index says which on top*/
+  z-index: 2;
+  color: white;
+  margin-top: 2%;
+  margin-left: 2%;
+
+}
+
+
+
 
 /* HEADER STYLES */
 
