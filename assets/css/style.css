@@ -73,6 +73,7 @@ ul {
   color: yellow;
 }
 
+/*do I really need .container if I'm making the other obj a flexbox?*/
 .container {
   display: flex;
   justify-content: space-between;
@@ -88,13 +89,12 @@ ul {
   margin-left: 20px;
 }
 
- 
-header {
+header, section {
   background-color: darkblue;
   display: flex; /* creates flexbox */
   flex-wrap: wrap;
   justify-content: space-between;
-
+  font-size: 11.5pt;
 }
 
 header p {
@@ -140,21 +140,30 @@ margin-top: 8%;
   margin-left: 2%;
 }
 
-main {
+/* main {
   background-color: darkblue;
-  display: flex; /* creates flexbox */
+  display: flex; 
   flex-wrap: wrap;
   justify-content: space-between;
 
 }
+
+.mywork {
+  background-color: darkblue;
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
 
 .contactme {
   background-color: darkblue;
-  display: flex; /* creates flexbox */
+  display: flex; 
   flex-wrap: wrap;
   justify-content: space-between;
 
-}
+} */
 
 /* HEADER STYLES */
 
