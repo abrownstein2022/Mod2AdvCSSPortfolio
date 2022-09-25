@@ -50,16 +50,9 @@ ul {
   height: 60px;
 }
 
-/*what does this a below do?*/
-/* .navbar a {
-  color: aqua;
-  text-decoration: underline;
-} */
-
 .navbar .navbarleft {
   font-size: x-large;
   font-weight: bold;
-
 }
 
 .navbar a {
@@ -89,12 +82,21 @@ ul {
   margin-left: 20px;
 }
 
-header, section {
+header {
   background-color: darkblue;
   display: flex; /* creates flexbox */
   flex-wrap: wrap;
   justify-content: space-between;
   font-size: 11.5pt;
+}
+
+section {
+  background-color: darkblue;
+  display: flex; /* creates flexbox */
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: x-large;
+  font-weight: bold;
 }
 
 header p {
@@ -116,6 +118,7 @@ position: relative;
  color: white;
  font-size: 11.5pt;
 }
+
 
 .worldhello img {
 width: 100%; /*relative to parent so always 100%*/
@@ -140,41 +143,18 @@ margin-top: 8%;
   margin-left: 2%;
 }
 
-/* main {
-  background-color: darkblue;
-  display: flex; 
-  flex-wrap: wrap;
-  justify-content: space-between;
-
-}
-
-.mywork {
-  background-color: darkblue;
-  display: flex; 
-  flex-wrap: wrap;
-  justify-content: space-between;
-
-}
-
-
-.contactme {
-  background-color: darkblue;
-  display: flex; 
-  flex-wrap: wrap;
-  justify-content: space-between;
-
-} */
-
 /* HEADER STYLES */
 
 /* MAIN BODY CONTENT */
   
   /* FOOTER SECTION */
 footer {
+    background-color: darkblue;  
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+
 }
 
 footer h2 {
