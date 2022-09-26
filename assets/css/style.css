@@ -31,7 +31,6 @@ img {
 h1,
 h2 {
   margin-bottom: 15px;
-  width:200px; 
 }
 
 ul {
@@ -166,12 +165,13 @@ section {
   z-index: 1;
 } 
 
-.mywork h1{
+.mywork h2{
   position: absolute; /*takes off page and z-index says which on top*/
   z-index: 2;
   color: white;
   margin-top: 2%;
   margin-left: 2%;
+  font-size: 18px; 
 }
 
 
@@ -183,14 +183,14 @@ section {
   align-items: center;
  }
 
- .firstproj h1{
+ .firstproj h2{
   position: absolute; /*takes off page and z-index says which on top*/
   z-index: 2;
   color: white;
   margin-top: 2%;
   margin-left: 2%;
+  font-size: 18px; 
 }
-
 
 .firstproj img{
   width: 100%;
@@ -218,12 +218,13 @@ section {
   /* position: absolute; takes off page - not needed here*/
   z-index: 1;
 } 
- .futurework h1{
+ .futurework h2{
   position: absolute; /*takes off page and z-index says which on top*/
   z-index: 2;
   color: white;
   margin-top: 2%;
   margin-left: 2%;
+  font-size: 18px; 
 }
   
   /* FOOTER SECTION */
