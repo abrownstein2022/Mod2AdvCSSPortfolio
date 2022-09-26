@@ -98,7 +98,7 @@ section {
   align-items: center;
   font-size: x-large;
   font-weight: bold;
-  justify-content: center;
+  justify-content:space-around; /*need space-around to keep spacing*/
 }
 
 header p {
@@ -158,14 +158,58 @@ margin-top: 8%;
   margin-left: 2%;
 }
 
-
-/* .currentwork {
+.mywork {
   height: 32vh;
   color:  white;
   font-size: 11.5pt;
   position: relative;
   align-items: center;
- } */
+ }
+
+.mywork img{
+  width: 75%;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  /* position: absolute; takes off page - not needed here*/
+  z-index: 1;
+} 
+
+.mywork h1{
+  position: absolute; /*takes off page and z-index says which on top*/
+  z-index: 2;
+  color: white;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+
+.firstproj {
+  height: 32vh;
+  color:  white;
+  font-size: 11.5pt;
+  position: relative;
+  align-items: center;
+ }
+
+ .firstproj h1{
+  position: absolute; /*takes off page and z-index says which on top*/
+  z-index: 2;
+  color: white;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+
+.firstproj img{
+  width: 100%;
+  /* height: 30vh; */
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  /* position: absolute; takes off page - not needed here*/
+  z-index: 1;
+} 
 
 .futurework {
   height: 32vh;
@@ -183,13 +227,12 @@ margin-top: 8%;
   /* position: absolute; takes off page - not needed here*/
   z-index: 1;
 } 
-.futurework h1{
+ .futurework h1{
   position: absolute; /*takes off page and z-index says which on top*/
   z-index: 2;
   color: white;
   margin-top: 2%;
   margin-left: 2%;
-
 }
 
 
@@ -206,6 +249,7 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     vertical-align: bottom;
+    color: white;
     font-weight: normal;
     height: 4vh;
 }
