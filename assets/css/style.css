@@ -146,10 +146,11 @@ section {
   font-size: x-large;
   font-weight: bold;
   justify-content:space-around; /*need space-around to keep spacing*/
+  
 }
 
 .mywork {
-  height: 32vh;
+  height: 36vh;
   color:  white;
   font-size: 11.5pt;
   position: relative;
@@ -176,7 +177,7 @@ section {
 
 
 .firstproj {
-  height: 32vh;
+  height: 36vh;
   color:  white;
   font-size: 11.5pt;
   position: relative;
@@ -193,7 +194,7 @@ section {
 }
 
 .firstproj img{
-  width: 100%;
+  width: 95%;
   /* height: 30vh; */
   margin-top: 2%;
   margin-left: 2%;
