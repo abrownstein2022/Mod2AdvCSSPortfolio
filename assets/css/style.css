@@ -31,6 +31,7 @@ img {
 h1,
 h2 {
   margin-bottom: 15px;
+  width:200px; 
 }
 
 ul {
@@ -90,16 +91,6 @@ header img{
  width: 100%;
  }
 
- section {
-  background-color:rgb(234, 240, 243);
-  display: flex; /* creates flexbox */
-  flex-wrap: wrap;
-  align-items: center;
-  font-size: x-large;
-  font-weight: bold;
-  justify-content:space-around; /*need space-around to keep spacing*/
-}
-
 .desert {
 position: relative;
 align-items: center;
@@ -148,6 +139,16 @@ margin-top: 8%;
 }
 
 /* MAIN BODY CONTENT */
+section {
+  background-color:rgb(234, 240, 243);
+  display: flex; /* creates flexbox */
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: x-large;
+  font-weight: bold;
+  justify-content:space-around; /*need space-around to keep spacing*/
+}
+
 .mywork {
   height: 32vh;
   color:  white;
