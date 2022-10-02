@@ -3,7 +3,7 @@ Stylesheet for Professional Portfolio - Challenge #2
 Author: Alexis Brownstein - alexis@drdatabase.com
 Created: 8/22/22
 Last modified: 
-9/26/22 9am by Alexis Brownstein
+10/2/22 9am by Alexis Brownstein
 ========================================== */
 
 /* SITEWIDE STYLES */
@@ -82,7 +82,7 @@ header {
 }
 
 header p {
-  width: 100%;
+  width: 97%;
   color:  black;
  }
 
@@ -109,9 +109,12 @@ align-items: center;
 }
 
 .aboutme {
-  border:.5px solid blue;
-  margin-top: .5%;
-  text-align: center;
+    border: 0.5px solid blue;
+    margin-top: .5%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .worldhello img {
