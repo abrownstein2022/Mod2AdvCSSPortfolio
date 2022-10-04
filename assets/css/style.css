@@ -91,22 +91,13 @@ header {
   justify-content: space-between;
   font-size: 11.5pt;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap; 
 }
 
 header p {
   width: 90%;
   color:  black;
  }
-
-/* header img{
- width: 100%; 
- } */
-
-.desert {
-/* position: relative; */
- align-items: center;
-}
 
 .desert, .aboutme, .worldlhello {
  /* width: 33%; */
@@ -129,27 +120,24 @@ header p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-basis: 33%; /*change for responsive design*/
   }
 
 .worldhello img {
-width: 100%; /*relative to parent so always 100%*/
-height: 40vh;
-margin-top: 2%;
+ height: 40vh;
+ margin-top: 2%;
 }
 
-.desert img {
- /* width: 100%; */
-  margin-top: 2%;
+.desert img { 
+  margin-top: -10%;
   margin-left: 2%;
   margin-bottom: 2%;
   /* position: absolute; takes off page - not needed here*/
-  z-index: 1;
+  z-index: 2;
 }
 
 .desert h1{
   /*position: absolute; */ /*takes off page and z-index says which on top*/
-  z-index: 2;
+  z-index: 1;
   color: black;
   margin-top: 2%;
   margin-left: 2%;
@@ -190,8 +178,4 @@ footer {
     padding-right: 0;
   }
 
-  aside {
-    width: 100%;
-    text-align: center;
-  }
 }
