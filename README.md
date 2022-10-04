@@ -47,7 +47,7 @@ https://abrownstein2022.github.io/Mod2AdvCSSPortfolio
 
 Here's a screenshot of my final webpage from a browser:
     
-![website-image](assets/images/webpage-screenshot-challenge2-adv-css.png)
+![website-image](assets/images/screenshot-challenge2.png)
     
 
 ## Credits
