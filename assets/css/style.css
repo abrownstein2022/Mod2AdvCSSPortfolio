@@ -116,7 +116,9 @@ header p {
 
 .aboutme {
     border: 0.5px solid blue;
-    margin-top: .5%;
+    margin-top: 1%;
+    margin-left: .75%;
+    margin-bottom: 1%;
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -125,7 +127,7 @@ header p {
 
 .worldhello img {
  height: 40vh;
- margin-top: 2%;
+ margin-top: 0%;
 }
 
 .desert img { 
@@ -142,6 +144,7 @@ header p {
   color: black;
   margin-top: 2%;
   margin-left: 2%;
+
 }
 
 /* MAIN BODY CONTENT */
