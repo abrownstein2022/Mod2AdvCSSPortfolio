@@ -1,10 +1,9 @@
-# Mod2AdvCSSPortfolio
-# Rutgers Bootcamp Challenge 2 - Professional Portfolio using Advanced CSS
+# Professional Portfolio using Advanced CSS
 
 ## Description
 
 ```md
-I created this website to showcase my web development skills to potential employers. 
+I created this website to showcase my web development skills. 
 
 User Story:
 AS AN employer
@@ -41,16 +40,12 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Installation
 
-I used VS Code software to edit code and git/Terminal to push changes to GitHub.  
+I used VS Code to edit code and git/Terminal to push changes to GitHub.  
 
 ## Usage
 
 Here's a link to my website stored in GitHub:
-https://abrownstein2022.github.io/ch2-css-professional-portfolio/
-
-Here's a screenshot of my final webpage from a browser:
-    
-![website-image](assets/images/screenshot-challenge2.png)
+https://abrownstein2022.github.io/css-professional-portfolio/
     
 
 ## Credits
