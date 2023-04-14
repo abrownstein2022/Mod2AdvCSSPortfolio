@@ -18,8 +18,8 @@ WHEN I click one of the links in the navigation
 THEN the UI scrolls to the corresponding section
 WHEN I click on the link to the section about their work
 THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the other
+WHEN I am presented with the developer's most complex application
+THEN that application's image should be larger in size than the others
 WHEN I click on the images of the applications
 THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
@@ -68,7 +68,7 @@ The main features in this project are:
 3. Project links open in a new window
 4. Different color appears when hovering over a text link
 5. Clicking on a link in the navigation takes you to that section on the website
-6. The first application in the course shows as a larger box than the subsequent projects
+6. The most detailed and complicated application shows as a larger box than the other web projects created
 ```
 
 ## How-to-Contribute
